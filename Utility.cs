@@ -12,6 +12,7 @@ namespace Mastermind
         {
             StringBuilder compination = new StringBuilder();
             bool match = true;
+
             for (int i = 0; i < 4; i++)
             {
                 if (masterCode[i] == userCode[i])
@@ -29,6 +30,7 @@ namespace Mastermind
                     match = false;
                 }
             }
+
             result = compination.ToString();
 
             return match;
