@@ -10,7 +10,9 @@ namespace Mastermind
     {
         static void Main(string[] args)
         {
+            int[] code = CodeGenerator.Generate();
 
+            Console.ReadLine();
         }
     }
 }
